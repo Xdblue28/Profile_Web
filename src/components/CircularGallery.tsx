@@ -552,7 +552,7 @@ class App {
     if (!this.isDown) return;
     const x = "touches" in e ? e.touches[0].clientX : e.clientX;
     // ĐIỀU CHỈNH VUỐT CHUỘT: Thu hẹp biên độ nhận khoảng cách (0.015 -> 0.008) loại bỏ cảm giác trơn trượt khó kiểm soát
-    const distance = (this.start - x) * (this.scrollSpeed * 0.002);
+    const distance = (this.start - x) * (this.scrollSpeed * 0.015);
     this.scroll.target = (this.scroll.position ?? 0) + distance;
   }
 
