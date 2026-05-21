@@ -30,8 +30,8 @@ const NavLink: React.FC<NavLinkProps> = ({ href, children }) => {
 export const Hero: React.FC = () => {
   const navItems = [
     { name: "Giới thiệu", href: "#about" },
-    { name: "Mục tiêu", href: "#features" },
     { name: "Kỹ năng", href: "#skills" },
+    { name: "Mục tiêu", href: "#features" },
     { name: "Dự án", href: "#projects" },
     { name: "Liên hệ", href: "#contact" },
   ];

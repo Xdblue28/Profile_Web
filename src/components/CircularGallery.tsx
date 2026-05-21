@@ -515,10 +515,10 @@ class App {
     font: string,
   ) {
     const defaultItems = [
-      { image: `https://picsum.photos/seed/1/800/600`, text: "Bridge" },
-      { image: `https://picsum.photos/seed/2/800/600`, text: "Desk Setup" },
-      { image: `https://picsum.photos/seed/3/800/600`, text: "Waterfall" },
-      { image: `https://picsum.photos/seed/4/800/600`, text: "Strawberries" },
+      { image: `/src/assets/public/anh1.jpg`, text: "Bridge" },
+      { image: `/src/assets/public/anh2.jpg`, text: "Desk Setup" },
+      { image: `/src/assets/public/anh3.jpg`, text: "Waterfall" },
+      { image: `/src/assets/public/anh4.jpg`, text: "Strawberries" },
     ];
     const galleryItems = items && items.length ? items : defaultItems;
     this.mediasImages = galleryItems.concat(galleryItems);

@@ -12,6 +12,8 @@ export default {
         }
       },
       fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        display: ['Outfit', 'sans-serif'],
         serif: ['"Instrument Serif"', 'serif'],
       }
     },
